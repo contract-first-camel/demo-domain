@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bookinfo6-prod
+  labels:
+    app : bookinfo6
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bookinfo6-qa
+  labels:
+    app : bookinfo6
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bookinfo6-dev
+  labels:
+    app : bookinfo6
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bookinfo6-build
+  labels:
+    app : bookinfo6
