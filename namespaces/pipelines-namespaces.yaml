@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pipelines-prod
+  labels:
+    app : pipelines
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pipelines-qa
+  labels:
+    app : pipelines
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pipelines-dev
+  labels:
+    app : pipelines
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pipelines-build
+  labels:
+    app : pipelines
